@@ -22,12 +22,12 @@ public class Laptop extends Maskin {
         antallLaptop++;
     }
 
-    public static void addNew() {
+    public static void addNew(String type) {
         Laptop nyLaptop = new Laptop();
+        nyLaptop.setType(type);
+
         Scanner lapIn = new Scanner(System.in);
         System.out.println("Ny Laptop:");
-        System.out.println("Type: ");
-        nyLaptop.setType(lapIn.nextLine());
         System.out.println("Merke: ");
         nyLaptop.setMerke(lapIn.nextLine());
         System.out.println("Pris: ");

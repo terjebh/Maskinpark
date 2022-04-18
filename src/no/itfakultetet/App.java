@@ -10,7 +10,7 @@ public class App {
         String menyvalg = "";
         Scanner in = new Scanner(System.in);
 
-        while(true) {
+        while (true) {
             System.out.println("MASKINPARK");
             System.out.println("-".repeat(30));
             System.out.println("1. Legg til ny Desktop PC");
@@ -18,15 +18,15 @@ public class App {
             System.out.println("3. Vis maskiner");
             System.out.println("q. Avslutt");
             menyvalg = in.nextLine();
-            if(menyvalg.equals("q")) {
+            if (menyvalg.equals("q")) {
                 System.out.println("Bye....");
-                exit (0);
+                exit(0);
             } else if (menyvalg.equals("1")) {
-            // Legg til ny Desktop PC
-
+                // Legg til ny Desktop PC
+                Laptop.addNew("Desktop");
             } else if (menyvalg.equals("2")) {
-            //Legg til ny aptop
-            Laptop.addNew();
+                //Legg til ny aptop
+                Laptop.addNew("Laptop");
             }
         }
 
