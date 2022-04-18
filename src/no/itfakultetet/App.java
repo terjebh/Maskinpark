@@ -27,6 +27,10 @@ public class App {
             } else if (menyvalg.equals("2")) {
                 //Legg til ny aptop
                 Laptop.addNew("Laptop");
+            } else if (menyvalg.equals("3")) {
+                // Vis maskiner
+                // TODO
+
             }
         }
 
