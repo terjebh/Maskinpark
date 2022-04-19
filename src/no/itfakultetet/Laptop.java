@@ -28,15 +28,15 @@ public class Laptop extends Maskin {
 
         Scanner lapIn = new Scanner(System.in);
         System.out.println("Ny Laptop:");
-        System.out.println("Merke: ");
+        System.out.print("Merke: ");
         nyLaptop.setMerke(lapIn.nextLine());
-        System.out.println("Pris: ");
+        System.out.print("Pris: ");
         nyLaptop.setPris(Integer.parseInt(lapIn.nextLine()));
-        System.out.println("GB Ram: ");
+        System.out.print("GB Ram: ");
         nyLaptop.setRam(Integer.parseInt(lapIn.nextLine()));
-        System.out.println("Skjermstørrelse i tommer: ");
+        System.out.print("Skjermstørrelse i tommer: ");
         nyLaptop.setSkjermstørrelse(Float.parseFloat(lapIn.nextLine()));
-        System.out.println("Innkjøpt: ");
+        System.out.print("Innkjøpt: ");
         nyLaptop.setInnkjøpt(LocalDate.parse(lapIn.nextLine()));
 
         lagre(nyLaptop);
