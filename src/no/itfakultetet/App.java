@@ -23,7 +23,7 @@ public class App {
                 exit(0);
             } else if (menyvalg.equals("1")) {
                 // Legg til ny Desktop PC
-                Laptop.addNew("Desktop");
+                Desktop.addNew("Desktop");
             } else if (menyvalg.equals("2")) {
                 //Legg til ny aptop
                 Laptop.addNew("Laptop");
