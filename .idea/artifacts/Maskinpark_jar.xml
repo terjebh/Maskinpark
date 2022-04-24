@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Maskinpark:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Maskinpark_jar</output-path>
+    <root id="archive" name="Maskinpark.jar">
+      <element id="module-output" name="Maskinpark" />
+    </root>
+  </artifact>
+</component>
